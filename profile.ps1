@@ -17,4 +17,5 @@
 # }
 
 $ErrorActionPreference = "Stop"
-Import-Module "./modules/Microsoft.Graph"
+Import-Module "./modules/Microsoft.Graph.Authentication/2.16.0/Microsoft.Graph.Authentication.psd1"
+Import-Module "./modules/Microsoft.Graph/2.16.0/Microsoft.Graph.psd1"
