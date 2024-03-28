@@ -17,3 +17,4 @@
 # }
 
 $ErrorActionPreference = "Stop"
+Import-Module "./modules/Microsoft.Graph"
